@@ -8,7 +8,7 @@ RSpec.describe Prototype, type: :model do
   describe 'プロトタイプ投稿' do
     context 'プロトタイプが投稿できる場合' do
       it 'contentとimageが存在していれば保存できる' do
-        
+        expect(@prototype).to be_valid
       end
     end
 
